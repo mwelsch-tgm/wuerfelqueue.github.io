@@ -1,7 +1,7 @@
 function fun(){
 	var namensListe = [];
 	for(var i = 0; i<5;i++){
-		namensListe[i] = document.getElementById("name"+ ++i ).value;
+		namensListe[i] = document.getElementById("name"+ (i+1) ).value;
 	}
 	var roles = ["top", "jungle", "mid", "adc", "support"];
 	roles = shuffle(roles);
